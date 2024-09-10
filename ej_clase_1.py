@@ -1,0 +1,13 @@
+print("introduccion a clases")
+class animal:
+    edad=3
+    raza="chihuas"
+    comida="croquetas"
+    def come(self):
+        print(f"el perro come "+self.comida)
+print(animal)
+print("creando el objento de la clase animal")
+perro=animal()
+print(f"edad del perro {perro.edad}")
+print(f"raza del perro {perro.raza}")
+perro.come()
